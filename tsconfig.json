@@ -4,7 +4,8 @@
         "paths": {
             "@components/*": ["components/*"],
             "@utils/*": ["utils/*"],
-            "@styles/*": ["styles/*"]
+            "@styles/*": ["styles/*"],
+            "@app/*": ["app/*"]
         },
         "outDir": "dist",
         "module": "esnext",
