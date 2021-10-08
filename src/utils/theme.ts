@@ -8,11 +8,11 @@ const config: ThemeConfig = {
 };
 
 const breakpoints = createBreakpoints({
-    sm: "20em", // 320px
-    md: "30em", // 480px
-    lg: "48em", // 768px
-    xl: "64em", // 1024px
-    "2xl": "75em", // 1200px
+    sm: "30em",
+    md: "48em",
+    lg: "62em",
+    xl: "80em",
+    "2xl": "96em",
 });
 
 const theme = extendTheme({ config, breakpoints });
